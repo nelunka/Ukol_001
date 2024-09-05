@@ -1,9 +1,13 @@
-.mobil-container {
-  width: 100%;
+grid {
   display: flex;
-  overflow: auto;
-  min-height: 100vh;
   align-items: center;
-  flex-direction: column;
-  justify-content: flex-start;
+  background-color: lightblue;
+  color: black;
+  width: 75%;
+  height: 100px;
+  margin: 20px;
+}
+
+p: hover {
+color: red;
 }
